@@ -1,2 +1,0 @@
-# BrightShare
-web project

@@ -1,399 +1,534 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Free Bootstrap Themes by Html5xCss3 dot com - Free Responsive Html5 Templates">
+    <meta name="author" content="#">
 	
-	<title>Hipster as F*** Cards by Creative Tim</title>
-
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
+    <title>SimplePix | Free Html5 Templates by </title>
+	
+	
+	<link rel="stylesheet" href="css/menu.css">
+	
+	<!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- Custom Fonts -->
+    <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css"  type="text/css">
+	
+	<link rel="stylesheet" href="css/lightbox.css">
+	
+	<!-- Core JavaScript Files -->  	 
     
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/hipster_cards.css" rel="stylesheet"/> 
-        
-    <!--     Fonts and icons     -->
-    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />  
-    <link href='http://fonts.googleapis.com/css?family=Playfair+Display|Raleway:700,100,400|Roboto:400,700|Playfair+Display+SC:400,700' rel='stylesheet' type='text/css'>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-    <style>
-        .card{
-            margin-bottom: 70px;
-        }
-    </style>
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
 
-<div class="wrapper">       
-    <div class="container">        
-        
-        <div style="margin-top: 20px" class="masonry-container">
-            
-            
-            <div class="card-box col-md-4 col-sm-6" id="quote">
-                <div class="card card-with-border card-just-text" data-background="color" data-color="black" >
-                    <div class="content">
-                        <h4 class="title">"In the end we only <b>regret</b> the chances we didn't take."</h4>
-                        <p class="description">{{quote_desc}}</p>
-                    </div>
-                </div> <!-- end card -->
-            </div>           
-            
-            
-            
-            <div class="card-box col-md-4 col-sm-6">
-                <div class="card">                            
-                    <div class="header">
-                        <img src="assets/img/lifestyle-8.jpg"/>
-                        <div class="filter"></div>
-                        
-                        <div class="actions">
-                            <button class="btn btn-round btn-fill btn-neutral btn-modern">
-                                Read Article
-                            </button>
-                        </div>
-                    </div>
-                    
-                    <div class="content">
-                        <h6 class="category">News</h6>
-                        <h4 class="title"><a href="#">Try the new hairstyle from this Barber Shop </a></h4>
-                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security. I feel like Raleway and Roboto do just that.</p>
-                    </div>                                           
-                </div> <!-- end card -->
-             </div>
-             
-             
-            <div class="card-box col-md-4 col-sm-6">    
-                <div class="card" data-background="image" data-src="assets/img/lifestyle-1.jpg">
-                    <div class="header">
-                        <div class="category">
-                            <h6 class="label label-danger">Hipster Tag</h6>    
-                        </div>
-                    </div>
-                    
-                    <div class="content">
-                        <h4 class="title title-uppercase">
-                            <a href="">Here can be your special title for this card</a>
-                        </h4>
-                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security. I feel like Raleway and Roboto do just that.</p>
-                    </div>                            
-                    <div class="filter">
-                        
-                    </div>
-                </div> <!-- end card -->                    
-            </div>
-            
-            
-            <div class="card-box col-md-4 col-sm-6">
-                <div class="card">                                            
-                    <div class="content">
-                        <h6 class="category">Best stories</h6>
-                        <h4 class="title"><a href="#">This is a plain Hipster Card, see for yourself</a></h4>
-                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security. I feel like Raleway and Roboto do just that.</p>
-                    </div>                                           
-                </div> <!-- end card -->
-            </div>
-                
-                
-            <div class="card-box col-md-4 col-sm-6">  
-                <div class="card">                            
-                    <div class="header">
-                        <img src="assets/img/beard-1.jpg" />
-                        
-                        <div class="social-line social-line-visible" data-buttons="4">
-                            <button class="btn btn-social btn-facebook">
-                                <i class="fa fa-facebook"></i>
-                            </button>
-                            <button class="btn btn-social btn-twitter">
-                                <i class="fa fa-twitter"></i>
-                            </button>
-                            <button class="btn btn-social btn-pinterest">
-                                <i class="fa fa-pinterest"></i>
-                            </button>
-                            <button class="btn btn-social btn-google">
-                                <i class="fa fa-google-plus"></i>
-                            </button>
-                        </div>
-                    </div>
-                    
-                    <div class="content">
-                        <h6 class="category">News</h6>
-                        <h4 class="title">Use this card and see what you can achive</h4>
-                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security. I feel like Raleway and Roboto do just that.</p>
-                    </div>  
-                </div> <!-- end card -->
-            </div>
-             
-            
-            
-            <div class="card-box col-md-4 col-sm-6">
-                <div class="card" data-background="image" data-src="assets/img/lifestyle-2.jpg">
-                    <div class="header">
-                        <div class="category">
-                            <h6 class="label label-warning">Trending Post</h6>    
-                        </div>
-                        
-                        <div class="social-line" data-buttons="3">
-                            <button class="btn btn-social btn-facebook">
-                                <i class="fa fa-facebook-square"></i> Share
-                            </button>
-                            <button class="btn btn-social btn-twitter">
-                                <i class="fa fa-twitter"></i> Tweet
-                            </button>
-                            <button class="btn btn-social btn-pinterest">
-                                <i class="fa fa-pinterest"></i> Pin
-                            </button>
-                        </div> 
-                    </div>
-                    
-                    <div class="content">
-                        <h4 class="title">Tobias Van Schneider is a German designer raised in Austria...</h4>
-                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security.</p>
-                    </div>                            
-                    <div class="filter"></div>
-                </div> <!-- end card -->    
-            </div>
-                 
-            
-            
-            
-             
-            <div class="card-box col-md-4 col-sm-6">               
-                <div class="card card-with-border" data-background="image" data-src="assets/img/fashion-1.jpg">
-                    <div class="header">
-                    </div>
-                    
-                    <div class="content text-center">
-                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security. I feel like Raleway and Roboto do just that.</p>
-                    </div>                            
-                    <div class="footer text-center">
-                         <a href="#" class="btn btn-danger btn-fill btn-round">Read article</a>
-                    </div>
-                    <div class="filter"></div>
-                </div> <!-- end card -->
-            </div>
-           
-           
-           
-            <div class="card-box col-md-4 col-sm-6">  
-                <div class="card card-just-text card-with-border" data-background="image" data-src="assets/img/lifestyle-9.jpg">
-                    <div class="content">
-                        <h4 class="title title-modern">"I liked nutella, triangles and outerspace way before hipsters."</h4>
-                        <p class="description">- Not A Hipster</p>
-                    </div>
-                    <div class="filter"></div>
-                </div> <!-- end card -->                
-            </div>
-            
-            
-            <div class="card-box col-md-4 col-sm-6">               
-                <div class="card card-with-border" data-background="color" data-color="azure">
-                    <div class="header">
-                        <div class="icon">
-                            <i class="pe-7s-radio"></i>
-                        </div>
-                    </div>
-                    <div class="content text-center">
-                        <h4 class="title title-modern">Nicecream.fm</h4>
-                        <p class="description">Best vibes in the marketplace. Listen to the best music from '89. I feel like Nicecream and .fm do just that.</p>
-                    </div>                      
-                    <div class="footer text-center">
-                        <button class="btn btn-neutral btn-round btn-fill btn-modern">Listen Now!</button>
-                    </div>    
-                </div> <!-- end card -->
-            </div>
-
-
-
-
-
-            <div class="card-box col-md-4 col-sm-6">   
-                <div class="card card-with-border" data-background="color" data-color="orange">
-                    <div class="content">
-                        <h6 class="category">Hot Article</h6>
-                        <h4 class="title">
-                            <a href="#"> Try the new hairstyle from this Barber Shop</a>
-                        </h4>
-                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security. I feel like Raleway and Roboto do just that.</p>
-                    </div>                          
-                </div> <!-- end card -->
-            </div>
-
-            
-            
-            <div class="card-box col-md-4 col-sm-6">      
-                <div class="card text-center" data-background="image" data-src="assets/img/city-2.png">
-                    <h4 class="title title-modern">Hipster Vacation</h4>
-                    
-                    <div class="content">
-                        <div class="price">
-                            <h6>From</h6>
-                            <h4>2.799<b class="currency">$</b></h4>
-                        </div>
-                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security.</p>      
-                    </div> 
-                    <div class="filter"></div>
-                    <div class="footer btn-center">
-                        <button class="btn btn-neutral btn-round btn-fill">Book Now!</button> 
-                    </div>                            
-                </div> <!-- end card -->    
-            </div>
-            
-            
-            
-
-            <div class="card-box col-md-4 col-sm-6">
-                <div class="card card-with-border">
-                    <div class="header">
-                        <div class="icon">
-                            <i class="pe-7s-glasses"></i>
-                        </div>
-                    </div>
-                    <div class="content text-center">
-                        <h4 class="title text-center">Hipster Glasses App</h4>
-                        <p class="description">Here can be a description about the application that is for download. I feel like this app is what I need.</p>                               
-                    </div>
-                    <div class="footer btn-center">
-                        <button class="btn btn-default btn-round btn-fill btn-info btn-modern">Download</button> 
-                    </div>                           
-                </div> <!-- end card -->
-            </div>
-            
-            
-            
-            
-            
-                
-            <div class="card-box col-md-4 col-sm-6">
-                <div class="card card-just-text card-with-border" data-background="image" data-src="assets/img/music-3.jpg">
-                    <div class="content">
-                        <div class="filter filter-red"></div>
-                        <h4 class="title title-modern">"I like the way you work it
-No diggity, I gotta bag it up."</h4>
-                        <p class="description">- Chet Faker</p>                    
-                    </div>
-                    
-                    <div class="filter"></div>
-                </div> <!-- end card -->    
-            </div>
-            
-            
-            
-            <div class="card-box col-md-4 col-sm-6">       
-                <div class="card card-with-border" data-background="color" data-color="green">
-                    <div class="header">
-                        <div class="icon">
-                            <i class="pe-7s-gift"></i>
-                        </div>
-                        
-                        <div class="social-line" data-buttons="3">
-                            <button class="btn btn-social btn-facebook">
-                                <i class="fa fa-facebook"></i>
-                            </button>
-                            <button class="btn btn-social btn-twitter">
-                                <i class="fa fa-twitter"></i>
-                            </button>
-                            <button class="btn btn-social btn-pinterest">
-                                <i class="fa fa-pinterest"></i>
-                            </button>
-                        </div>
-                        
-                    </div>
-                    <div class="content text-center">
-                        <p class="description">Your friend <b>Michael Osborn</b> has sent you a hipster gift card.</p><br>                               
-                    </div>
-                    <div class="footer btn-center">
-                        <button class="btn btn-neutral btn-fill btn-modern">View Gift Details</button> 
-                    </div>                           
-                </div> <!-- end card -->            
-            </div>    
-            
-            
-            
-            <div class="card-box col-md-4 col-sm-6">
-                <div class="card" data-background="color" data-color="black">                            
-                    <div class="header">
-                        <img src="assets/img/home-1.jpg"/>
-                       
-                        <div class="social-line" data-buttons="2">
-                            <button class="btn btn-social">
-                                <i class="fa fa-facebook-square"></i> Share
-                            </button>
-                            <button class="btn btn-social">
-                                <i class="fa fa-twitter"></i> Tweet
-                            </button>
-                        </div>
-                    </div>
-                    
-                    <div class="content">
-                        <h6 class="category">Interior Design</h6>
-                        <h4 class="title"><a href="#">Hipster Apartment sold for $1.2 mil.</a></h4>
-                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security. I feel like Raleway and Roboto do just that.</p>
-                    </div>                                           
-                </div> <!-- end card -->      
-            </div> 
-                
-                
-             
-            <div class="card-box col-md-4 col-sm-6">  
-                <div class="card text-center" data-background="image" data-src="assets/img/city-1.jpg">
-                    <h4 class="title title-modern">Hipster City</h4>
-                    
-                    <div class="content">
-                           <div class="price">
-                            <h6>From</h6>
-                            <h4>1.499<b class="currency">$</b></h4>
-                        </div>      
-                    </div> 
-                    
-                    <div class="footer btn-center">
-                        <button class="btn btn-neutral btn-round btn-modern">Buy Ticket</button> 
-                    </div>    
-                    
-                    <div class="filter filter-blue"></div>                       
-                </div> <!-- end card -->             
-            </div>
-            
-                              
-        </div>
-        
-    </div> 
-</div> <!-- end wrapper -->
-
-</body>
-
-
-    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/hipster-cards.js"></script>
-    <script src="assets/js/index.js"></script>
-
-	<!--  Just for demo	 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
-
-	<script>
-    	
-    	$().ready(function(){
-        	
-        	var $container = $('.masonry-container');
-
-            doc_width = $(document).width();
-            
-            if (doc_width >= 768){
-                $container.masonry({
-                    itemSelector        : '.card-box',
-                    columnWidth         : '.card-box',
-                    transitionDuration  : 0
-                });   
-            } else {
-                $('.mas-container').removeClass('mas-container').addClass('row');
-            }            
-    	});
+	<div class="header">
+		<div id='cssmenu' >
+			<ul>
+			   <li class="active"><a href='index.html'><span>SimplePix</span></a></li>
+			   <li class=' has-sub'><a href='#'><span>Category</span></a>
+				  <ul>
+					 <li class='has-sub'><a href='#'><span>Item 1</span></a>
+						<ul>
+						   <li><a href='#'><span>Sub Item</span></a></li>
+						   <li class='last'><a href='#'><span>Sub Item</span></a></li>
+						</ul>
+					 </li>
+					 <li class='has-sub'><a href='#'><span>Item 2</span></a>
+						<ul>
+						   <li><a href='#'><span>Sub Item</span></a></li>
+						   <li class='last'><a href='#'><span>Sub Item</span></a></li>
+						</ul>
+					 </li>
+				  </ul>
+			   </li>
+			   <li><a href='#'><span>Gallery</span></a></li>
+			   <li><a href='single.html'><span>About</span></a></li>
+			   <li class='last'><a href='contact.html'><span>Contact</span></a></li>
+			</ul>
+		</div>
+	</div>
+    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+	<div id="page-content" class="index-page">
+		<div id="container">
+			<!-- These are our grid blocks -->
+			<div class="item">
+				<a class="example-image-link" href="images/25.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/25.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Children</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/27.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/27.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Startup</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/28.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/28.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Sun</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/29.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/29.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">The Eiffel Tower</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/30.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/30.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Water drops</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/01.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/01.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Agfa</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/02.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/02.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Auto</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.</p>
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/03.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/03.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Bald eagle</a></h3>
+					<span class="time">SEPTEMBER 30TH</span>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.</p>
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/04.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/04.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Black swan</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit. Vestibulum e risu.</p>
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/05.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/05.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Book shelf</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risu.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/06.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/06.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Camera</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risu.Aenean feugiat in ante et blandit. Vestibulum e risu.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/07.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/07.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Camera</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risu.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/08.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/08.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Vintage camera</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/09.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/09.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Coffee</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/10.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/10.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Cookies</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/12.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/12.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">DJ</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit. Vestibulum e risu.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/11.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/11.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Cubes</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit. Vestibulum e risu.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/13.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/13.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Doors</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/14.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/14.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Matchbox</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/15.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/15.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Freiburg</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/16.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/16.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Henna</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. nte et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/17.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/17.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Home office</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/18.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/18.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">iPad</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean fenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/19.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/19.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Matchbox</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac i, Vestibulum e risu. Aenean feugiat in ante et blandit.Vestibulum e risu. Aenean feugiat in ante et blandit.Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/20.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/20.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Lynx</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/21.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/21.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Mac</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/22.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/22.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Notebook</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/23.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/23.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Thoughts</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/24.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/24.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Office</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+			<div class="item">
+				<a class="example-image-link" href="images/26.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/26.jpg" alt=""/></a>
+				<div class="content-item">
+					<h3 class="title-item"><a href="single.html">Portrait</a></h3>
+					<div class="time"> SEPTEMBER 30TH</div>
+					<p class="info">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non.Aenean feugiat in ante et blandit, Vestibulum e risu. Aenean feugiat in ante et blandit.</p>
+					
+				</div>
+				<div class="bottom-item">
+					<a href="#" class="btn btn-share share"><i class="fa fa-share-alt"></i> Share</a>
+					<a href="#" class="btn btn-like"><i class="fa fa-heart-o"></i></a>
+					<a href="#" class="btn btn-comment"><i class="fa fa-comment-o"></i></a>
+					<a href="single.html" class="btn btn-more"><i class="fa fa-long-arrow-right "></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+	More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+    <!-- Once the page is loaded, initialized the plugin. -->
+    <script type="text/javascript" src="js/jquery-2.1.1.js" ></script>
+	
+	<!-- jQuery Pinterest -->
+    <script type="text/javascript" src="js/jquery.pinto.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+	
+	<!-- Light Box -->
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	
+	<!-- Menu -->
+	<script src="js/script.js"></script>
+	
+	<script type="text/javascript">
+		$('#container').pinto();
 	</script>
 	
+</body>
 </html>
